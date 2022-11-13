@@ -1,0 +1,25 @@
+.banner {
+	width: 1366px;
+	height: 700px;
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	z-index: -1; 
+
+background-image: url(imgs/explorer.jpg); 
+background-size: 100% 100%;
+
+animation: banner 20s infinite; 
+}
+
+@keyframes banner {
+     0%, 28% {
+     	background-image: url(imgs/explorer.jpg);
+     }
+     29%, 61% {
+     	background-image: url(imgs/civic.jpg);
+     }
+     62%, 99% {
+     	background-image: url(imgs/ram.jpg);
+    }
+}
